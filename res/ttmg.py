@@ -321,7 +321,7 @@ def updateCheck(self, Version):
           return message
 
     check = UpdateChecker()
-    check.URL = "https://raw.githubusercontent.com/Pavithran-R/Colab-SimpleTorrent/master/update.xml"
+    check.URL = "https://raw.githubusercontent.com/electayta/gyat/master/update.xml"
     currentVersion = check.getVersion("currentVersion")
     message = check.getMessage("message")
 
